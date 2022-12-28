@@ -13,21 +13,28 @@
 
 <body>
     <header>
-        <nav>
-            <ul id="horizontal-list">
+        <div class="menubar">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="ommig.html">Om mig</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
-
+        <div class="billedeforside">
+            <img src="illustartor/forsidecirkel.svg" alt="Forside billede">
+        </div>
     </main>
     <footer>
 
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
