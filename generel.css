@@ -123,3 +123,110 @@ img {
     text-decoration: none;
   }
 }
+
+/************************* large tablets & laptop styles *************************/
+
+@media (min-width: 621px) {
+  /********** Header **********/
+  header {
+    background-color: var(--secondary);
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+  #menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: var(--menu);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  #bar3 {
+    transform: translateY(4px);
+  }
+  .nav li a {
+    text-decoration: none;
+    color: var(--menu);
+    font-size: 1.2rem;
+  }
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  .nav li {
+    list-style: none;
+    padding: 16px 0;
+  }
+  .nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+    display: none;
+  }
+  .change .bar {
+    background-color: var(--menu);
+  }
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  .change #bar3 {
+    transform: translateY(-6px) rotate(45deg);
+  }
+  .change #bar2 {
+    opacity: 0;
+  }
+  .change {
+    display: block;
+  }
+  /********** Footer **********/
+  footer {
+    background-color: var(--menu);
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: var(--footer);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: var(--footer);
+  }
+  .footerlist li a:hover {
+    color: var(--footer);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:link {
+    text-decoration: none;
+  }
+}
