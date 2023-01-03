@@ -1,19 +1,27 @@
-/************************* mobile style *************************/
-
-/***************** Index *****************/
-.billedeforside {
-  background-color: var(--primary);
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-/************************* Small tablet styles *************************/
+/************************* Mobile style *************************/
 
 @media (max-width: 620px) {
+  /***************** Index *****************/
+  .billedeforside {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+
   /***************** Portfolio *****************/
+
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem 3rem 3rem 3rem;
+    gap: 50px;
+  }
+  .flex_col {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--primary);
+  }
+
+  /***************** Tema 2 *****************/
   .overskrift_portfolio {
     text-align: center;
     padding-top: 2rem;
@@ -25,23 +33,51 @@
     padding-bottom: 1rem;
   }
   .grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 2rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 2rem;
   }
-
-  .grid_3-2 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
+  #mindretak {
+    max-width: 75%;
   }
 }
 /************************* large tablets & laptop styles *************************/
 
-@media (min-width: 960px) {
+@media (min-width: 621px) {
+  /***************** Index *****************/
+  .billedeforside {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+
+  /***************** Portfolio *****************/
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 7rem 3rem 7rem;
+    gap: 50px;
+  }
+  .flex_col {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--primary);
+  }
 }
 /************************* desktop style *************************/
 
 @media (min-width: 1200px) {
+  /***************** Portfolio *****************/
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 10rem 5rem 10rem;
+    gap: 50px;
+  }
+  .flex_col {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--primary);
+  }
 }

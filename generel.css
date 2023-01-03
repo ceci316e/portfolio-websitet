@@ -1,6 +1,6 @@
 html {
   --primary: #e190907a;
-  --secondary: #eaf42a;
+  --secondary: #eaf42abb;
   --menu: #cd3a49;
   --footer: white;
 }
@@ -9,6 +9,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 /* Gør så billederne ikke blæser så store op */
 img {
   vertical-align: middle;
