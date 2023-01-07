@@ -37,17 +37,17 @@
     max-width: 69%;
     padding-left: 3rem;
   }
-  .streg {
+  .streg2 {
     padding-bottom: 0.7rem;
   }
   h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   /***************** Tema 3 *****************/
   .overskrift_portfolio {
@@ -68,17 +68,77 @@
     padding-right: 2rem;
     padding-top: 1.5rem;
   }
-  .streg {
+  .streg2 {
     padding-bottom: 0.7rem;
   }
   h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+  /***************** Tema 4 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-4 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-4 {
+    padding-top: 2rem;
+  }
+  .streg2 {
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  /***************** Tema 5 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-5 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-5 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    max-width: 80%;
+  }
+  .grid_3-5 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-5 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .streg2 {
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.1rem;
   }
 }
 /************************* large tablets & laptop styles *************************/
@@ -151,7 +211,7 @@
     padding-right: 2rem;
     padding-top: 1.5rem;
   }
-  .streg {
+  .streg2 {
     padding-bottom: 0.7rem;
   }
   h2 {
@@ -162,6 +222,73 @@
   }
   p {
     font-size: 1.3rem;
+  }
+  /***************** Tema 4 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-4 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    max-width: 80%;
+  }
+  .streg2 {
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  /***************** Tema 5 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-5 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    max-width: 80%;
+  }
+  .grid_3-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-5 {
+    padding-left: 1rem;
+    padding-right: 4rem;
+  }
+  .streg2 {
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.1rem;
   }
 }
 /************************* desktop style *************************/
@@ -227,7 +354,7 @@
     padding-right: 2rem;
     padding-top: 1.5rem;
   }
-  .streg {
+  .streg2 {
     padding-bottom: 0.7rem;
   }
   h2 {
