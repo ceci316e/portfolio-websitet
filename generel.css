@@ -1,4 +1,5 @@
 html {
+  background-color: var(--primary);
   --primary: #e190907a;
   --secondary: #eaf42aa4;
   --background: #e190901c;

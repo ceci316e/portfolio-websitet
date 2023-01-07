@@ -2,11 +2,7 @@
 
 @media (max-width: 620px) {
   /***************** Index *****************/
-  .billedeforside {
-    background-color: var(--primary);
-    text-align: center;
-    padding: 3rem 3rem 3rem 3rem;
-  }
+
   /***************** Portfolio *****************/
   .grid_2-2-2-2 {
     display: grid;
@@ -145,11 +141,6 @@
 
 @media (min-width: 621px) {
   /***************** Index *****************/
-  .billedeforside {
-    background-color: var(--primary);
-    text-align: center;
-    padding: 3rem 3rem 3rem 3rem;
-  }
 
   /***************** Portfolio *****************/
   .grid_2-2-2-2 {
@@ -294,6 +285,127 @@
 /************************* desktop style *************************/
 
 @media (min-width: 1200px) {
+  /***************** Index *****************/
+  /***************** Skærm *****************/
+
+  #screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+  }
+  #game {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #game_elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #game_foreground {
+    width: 57%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20rem;
+    background-image: url(illustartor/forsidecirkel.svg);
+    background-size: cover;
+  }
+  /***************** Elementer *****************/
+  /***************** Stjerne 1 *****************/
+  #stjerne1_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne1_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne1.svg);
+    background-size: 100%;
+  }
+
+  /***************** Stjerne 2 *****************/
+  #stjerne2_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne2_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne2.svg);
+    background-size: 100%;
+  }
+  /***************** Stjerne 3 *****************/
+
+  #stjerne3_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne3_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/cirkel.svg);
+    background-size: 100%;
+  }
+  /***************** Fald animation *****************/
+  .fald {
+    animation-name: fald_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  /********************* Posetioner *********************/
+
+  .pos1 {
+    top: 0vw;
+    left: -6vw;
+  }
+  .pos2 {
+    top: 0vw;
+    left: 1vw;
+  }
+  .pos3 {
+    top: 0vw;
+    left: 8vw;
+  }
+  .pos4 {
+    top: 0vw;
+    left: 15vw;
+  }
+  .pos5 {
+    top: 0vw;
+    left: 57vw;
+  }
+  .pos6 {
+    top: 0vw;
+    left: 64vw;
+  }
+  .pos7 {
+    top: 0vw;
+    left: 71vw;
+  }
+  .pos8 {
+    top: 0vw;
+    left: 78vw;
+  }
+  .pos9 {
+    top: 0vw;
+    left: 85vw;
+  }
   /***************** Portfolio *****************/
   .grid_2-2-2-2 {
     display: grid;
