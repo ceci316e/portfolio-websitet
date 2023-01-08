@@ -2,7 +2,258 @@
 
 @media (max-width: 620px) {
   /***************** Index *****************/
+  /***************** Skærm *****************/
 
+  #screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+  }
+  #game {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #game_elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #game_foreground {
+    width: 57%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 8rem;
+    background-image: url(illustartor/forsidecirkel.svg);
+    background-size: cover;
+  }
+  /***************** Elementer *****************/
+  /***************** Stjerner *****************/
+  #stjerne1_container {
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne1_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne1.svg);
+    background-size: 100%;
+  }
+  #stjerne3_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne3_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne3.svg);
+    background-size: 100%;
+  }
+  #stjerne4_container {
+    position: absolute;
+    width: 8%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne4_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne4.svg);
+    background-size: 100%;
+  }
+  #stjerne5_container {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne5_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne5.svg);
+    background-size: 100%;
+  }
+  #stjerne6_container {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne6_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne6.svg);
+    background-size: 100%;
+  }
+  #stjerne7_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne7_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne7.svg);
+    background-size: 100%;
+  }
+  #stjerne8_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne8_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne8.svg);
+    background-size: 100%;
+  }
+  #stjerne9_container {
+    position: absolute;
+    width: 8%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne9_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne9.svg);
+    background-size: 100%;
+  }
+  #stjerne10_container {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne10_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne10.svg);
+    background-size: 100%;
+  }
+  #stjerne11_container {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne11_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne11.svg);
+    background-size: 100%;
+  }
+  #stjerne12_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne12_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne12.svg);
+    background-size: 100%;
+  }
+  /***************** Fald animation *****************/
+  .fald1 {
+    animation-name: fald1_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald1_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald2 {
+    animation-name: fald2_kf;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald2_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald3 {
+    animation-name: fald3_kf;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald3_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald4 {
+    animation-name: fald4_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald4_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald5 {
+    animation-name: fald5_kf;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald5_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  /********************* Posetioner *********************/
+
+  .pos1 {
+    top: 0vw;
+    left: -6vw;
+  }
+  .pos2 {
+    top: 0vw;
+    left: 1vw;
+  }
+  .pos3 {
+    top: 0vw;
+    left: 8vw;
+  }
+  .pos4 {
+    top: 0vw;
+    left: 15vw;
+  }
+  .pos5 {
+    top: 0vw;
+    left: 57vw;
+  }
+  .pos6 {
+    top: 0vw;
+    left: 64vw;
+  }
+  .pos7 {
+    top: 0vw;
+    left: 71vw;
+  }
+  .pos8 {
+    top: 0vw;
+    left: 78vw;
+  }
+  .pos9 {
+    top: 0vw;
+    left: 85vw;
+  }
   /***************** Portfolio *****************/
   .grid_2-2-2-2 {
     display: grid;
@@ -28,6 +279,14 @@
     grid-template-columns: 1fr 1fr;
     padding-top: 2rem;
     padding-left: 3rem;
+  }
+  .grid_3-2 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-2 {
+    max-width: 66%;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
   }
   #mindretak2 {
     max-width: 69%;
@@ -120,6 +379,10 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .mindretak5 {
+    padding-left: 3rem;
+    max-width: 80%;
+  }
   .streg2 {
     padding-top: 2rem;
     padding-bottom: 0.7rem;
@@ -140,151 +403,6 @@
 /************************* large tablets & laptop styles *************************/
 
 @media (min-width: 621px) {
-  /***************** Index *****************/
-
-  /***************** Portfolio *****************/
-  .grid_2-2-2-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 3rem 7rem 3rem 7rem;
-    gap: 50px;
-  }
-  .flex_col {
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: var(--primary);
-  }
-  /***************** Tema 2 *****************/
-
-  .overskrift_portfolio {
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .grid_1-2 {
-    padding: 1rem 2rem 1rem;
-  }
-  .grid_2-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    max-width: 80%;
-  }
-  #mindretak2 {
-    max-width: 58%;
-    padding-left: 3rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1.5rem;
-  }
-  /***************** Tema 3 *****************/
-  .overskrift_portfolio {
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .grid_1-3 {
-    padding: 1rem 2rem 1rem;
-  }
-  .grid_2-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 2rem;
-    max-width: 69%;
-  }
-  #mindretak3 {
-    max-width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1.5rem;
-  }
-  .streg2 {
-    padding-bottom: 0.7rem;
-  }
-  h2 {
-    font-size: 2.3rem;
-  }
-  h3 {
-    font-size: 1.7rem;
-  }
-  p {
-    font-size: 1.3rem;
-  }
-  /***************** Tema 4 *****************/
-  .overskrift_portfolio {
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .grid_1-4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem 2rem 1rem;
-  }
-  .grid_2-4 {
-    padding-top: 2rem;
-    padding-left: 5rem;
-    max-width: 80%;
-  }
-  .streg2 {
-    padding-bottom: 0.7rem;
-  }
-  h2 {
-    font-size: 2.1rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  p {
-    font-size: 1.1rem;
-  }
-  /***************** Tema 5 *****************/
-  .overskrift_portfolio {
-    text-align: center;
-    padding-top: 2rem;
-  }
-  .grid_1-5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem 2rem 1rem;
-  }
-  .grid_2-5 {
-    padding-top: 2rem;
-    padding-left: 5rem;
-    max-width: 80%;
-  }
-  .grid_3-5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem 2rem 1rem;
-  }
-  .grid_4-5 {
-    padding-left: 1rem;
-    padding-right: 4rem;
-  }
-  .streg2 {
-    padding-top: 2rem;
-    padding-bottom: 0.7rem;
-  }
-  h2 {
-    font-size: 2.1rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  h4 {
-    font-size: 1.4rem;
-  }
-  p {
-    font-size: 1.1rem;
-  }
-}
-/************************* desktop style *************************/
-
-@media (min-width: 1200px) {
   /***************** Index *****************/
   /***************** Skærm *****************/
 
@@ -542,6 +660,164 @@
   .grid_2-2-2-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3rem 7rem 3rem 7rem;
+    gap: 50px;
+  }
+  .flex_col {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--primary);
+  }
+  /***************** Tema 2 *****************/
+
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-2 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    max-width: 80%;
+  }
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-2 {
+    max-width: 58%;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  #mindretak2 {
+    max-width: 58%;
+    padding-left: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  /***************** Tema 3 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-3 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+    max-width: 69%;
+  }
+  #mindretak3 {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+  }
+  .streg2 {
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  /***************** Tema 4 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-4 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    max-width: 80%;
+  }
+  .streg2 {
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  /***************** Tema 5 *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .grid_1-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-5 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    max-width: 80%;
+  }
+  .grid_3-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1rem;
+  }
+  .mindretak5 {
+    padding-left: 2rem;
+    max-width: 60%;
+  }
+  .streg2 {
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+/************************* desktop style *************************/
+
+@media (min-width: 1200px) {
+  /***************** Portfolio *****************/
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 5rem 10rem 5rem 10rem;
     gap: 50px;
   }
@@ -563,6 +839,15 @@
   }
   .grid_2-2 {
     display: grid;
+  }
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_4-2 {
+    max-width: 50%;
+    padding-bottom: 1rem;
   }
   #mindretak2 {
     max-width: 80%;
