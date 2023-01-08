@@ -317,7 +317,7 @@
     background-size: cover;
   }
   /***************** Elementer *****************/
-  /***************** Stjerne 1 *****************/
+  /***************** Stjerner *****************/
   #stjerne1_container {
     position: absolute;
     width: 10%;
@@ -329,41 +329,173 @@
     background-image: url(illustartor/stjerne1.svg);
     background-size: 100%;
   }
-
-  /***************** Stjerne 2 *****************/
-  #stjerne2_container {
-    position: absolute;
-    width: 10%;
-    aspect-ratio: 1/1;
-  }
-  #stjerne2_sprite {
-    width: 100%;
-    height: 100%;
-    background-image: url(illustartor/stjerne2.svg);
-    background-size: 100%;
-  }
-  /***************** Stjerne 3 *****************/
-
   #stjerne3_container {
     position: absolute;
-    width: 10%;
+    width: 9%;
     aspect-ratio: 1/1;
   }
   #stjerne3_sprite {
     width: 100%;
     height: 100%;
-    background-image: url(illustartor/cirkel.svg);
+    background-image: url(illustartor/stjerne3.svg);
+    background-size: 100%;
+  }
+  #stjerne4_container {
+    position: absolute;
+    width: 8%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne4_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne4.svg);
+    background-size: 100%;
+  }
+  #stjerne5_container {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne5_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne5.svg);
+    background-size: 100%;
+  }
+  #stjerne6_container {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne6_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne6.svg);
+    background-size: 100%;
+  }
+  #stjerne7_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne7_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne7.svg);
+    background-size: 100%;
+  }
+  #stjerne8_container {
+    position: absolute;
+    width: 9%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne8_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne8.svg);
+    background-size: 100%;
+  }
+  #stjerne9_container {
+    position: absolute;
+    width: 8%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne9_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne9.svg);
+    background-size: 100%;
+  }
+  #stjerne10_container {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne10_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne10.svg);
+    background-size: 100%;
+  }
+  #stjerne11_container {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne11_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne11.svg);
+    background-size: 100%;
+  }
+  #stjerne12_container {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+  }
+  #stjerne12_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(illustartor/stjerne12.svg);
     background-size: 100%;
   }
   /***************** Fald animation *****************/
-  .fald {
-    animation-name: fald_kf;
+  .fald1 {
+    animation-name: fald1_kf;
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: both;
   }
-  @keyframes fald_kf {
+  @keyframes fald1_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald2 {
+    animation-name: fald2_kf;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald2_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald3 {
+    animation-name: fald3_kf;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald3_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald4 {
+    animation-name: fald4_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald4_kf {
+    100% {
+      transform: translateY(41vw);
+    }
+  }
+  .fald5 {
+    animation-name: fald5_kf;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+  }
+  @keyframes fald5_kf {
     100% {
       transform: translateY(41vw);
     }
