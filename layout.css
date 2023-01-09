@@ -329,6 +329,7 @@
     padding: 10px 10px;
     font-size: 23px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   /* Slideshow container */
@@ -442,6 +443,9 @@
   .grid_2-4 {
     padding-top: 2rem;
   }
+  .grid_3-4 {
+    padding: 1rem 2rem 1rem;
+  }
   .streg2 {
     padding-bottom: 0.7rem;
   }
@@ -495,7 +499,19 @@
   p {
     font-size: 1.1rem;
   }
+  /***************** Om mig *****************/
+  .grid_1-6 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_6-6-6 {
+    padding: 1rem 2rem 1rem;
+  }
+  .imidtentak {
+    padding-top: 2rem;
+    text-align: center;
+  }
 }
+
 /************************* large tablets & laptop styles *************************/
 
 @media (min-width: 621px) {
@@ -830,6 +846,7 @@
     padding: 10px 10px;
     font-size: 23px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   /* Slideshow container */
   .slideshow-container {
@@ -1020,6 +1037,9 @@
     padding-top: 2rem;
     padding-left: 5rem;
     max-width: 80%;
+  }
+  .grid_3-4 {
+    padding: 1rem 2rem 1rem;
   }
   .streg2 {
     padding-bottom: 0.7rem;
