@@ -19,9 +19,6 @@ img {
   width: 100%;
   height: auto;
 }
-body {
-  background-color: var(--background);
-}
 main {
   max-width: 1500px;
   margin-inline: auto;
