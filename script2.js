@@ -21,7 +21,7 @@ function showSlides(n) {
   if (n > slides.length) {
     slideIndex = 1;
   }
-  // Ved ikke hvad gør
+  // Ved ikke helt hvad gør: hvis param n er mindre end 1, indstil indeks til det samlede antal slides
   if (n < 1) {
     slideIndex = slides.length;
   }
