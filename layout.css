@@ -282,6 +282,7 @@
   }
   .grid_3-2 {
     padding: 1rem 2rem 1rem;
+    padding-bottom: 3rem;
   }
   .grid_4-2 {
     max-width: 66%;
@@ -474,6 +475,7 @@
   }
   .grid_3-5 {
     padding: 1rem 2rem 1rem;
+    padding-bottom: 3rem;
   }
   .grid_4-5 {
     padding-top: 2rem;
@@ -481,8 +483,8 @@
     padding-right: 1rem;
   }
   .mindretak5 {
-    padding-left: 3rem;
-    max-width: 80%;
+    padding-left: 8rem;
+    max-width: 70%;
   }
   .streg2 {
     padding-top: 2rem;
@@ -1118,6 +1120,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1rem 2rem 1rem;
+    padding-bottom: 3rem;
   }
   .grid_4-5 {
     display: grid;
