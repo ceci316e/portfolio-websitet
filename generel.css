@@ -1,6 +1,6 @@
 html {
   background-color: var(--primary);
-  --primary: #e190907a;
+  --primary: #e1909038;
   --secondary: #eaf42aa4;
   --background: #e190901c;
   --menu: #cd3a49;
@@ -18,9 +18,10 @@ img {
   vertical-align: middle;
   width: 100%;
   height: auto;
+  padding-bottom: 2rem;
 }
 main {
-  max-width: 1500px;
+  max-width: 1200px;
   margin-inline: auto;
 }
 /***************** Tekst format *****************/

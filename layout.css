@@ -329,7 +329,7 @@
     padding: 10px 10px;
     font-size: 23px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   /* Slideshow container */
@@ -503,12 +503,26 @@
   .grid_1-6 {
     padding: 1rem 2rem 1rem;
   }
+  .grid_2-6 {
+    padding: 1rem 2rem 1rem;
+  }
+  .hvemerjeg {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
   .grid_6-6-6 {
     padding: 1rem 2rem 1rem;
   }
   .imidtentak {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: var(--primary);
   }
 }
 
@@ -792,8 +806,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 2rem;
-    padding-left: 2rem;
-    max-width: 80%;
+    padding-left: 4rem;
   }
   .grid_3-2 {
     display: grid;
@@ -827,8 +840,7 @@
     padding: 1rem 2rem 1rem;
   }
   .grid_2-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    max-width: 40%;
     padding-top: 2rem;
   }
   .grid_3-3 {
@@ -846,7 +858,7 @@
     padding: 10px 10px;
     font-size: 23px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
   /* Slideshow container */
   .slideshow-container {
@@ -1098,7 +1110,33 @@
   p {
     font-size: 1.1rem;
   }
+  /***************** Om mig *****************/
+  .grid_1-6 {
+    padding: 1rem 2rem 1rem;
+  }
+  .grid_2-6 {
+    padding: 1rem 2rem 1rem;
+  }
+  .hvemerjeg {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .grid_6-6-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+  }
+  .imidtentak {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .flex_col {
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: var(--primary);
+  }
 }
+
 /************************* desktop style *************************/
 
 @media (min-width: 1200px) {
@@ -1161,15 +1199,14 @@
     padding: 1rem 2rem 3rem;
   }
   .grid_2-3 {
-    max-width: 100%;
+    max-width: 70%;
     padding-top: 2rem;
     padding-left: 4rem;
   }
   #mindretak3 {
     max-width: 100%;
-    padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
   }
   .streg2 {
     padding-bottom: 0.7rem;
