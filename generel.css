@@ -1,10 +1,9 @@
 html {
   background-color: var(--primary);
-  --primary: #e1909038;
-  --secondary: #eaf42aa4;
+  --primary: #e190903e;
+  --secondary: #eaf42a93;
   --background: #e190901c;
   --menu: #cd3a49;
-  --footer: white;
   --fonts: "Quicksand", sans-serif;
 }
 * {
@@ -28,6 +27,7 @@ main {
 h1 {
   font-family: var(--fonts);
   font-size: 3rem;
+  padding-bottom: 0.5rem;
 }
 h2 {
   font-family: var(--fonts);
@@ -40,7 +40,6 @@ h3 {
 }
 h4 {
   font-family: var(--fonts);
-  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 p {
@@ -128,14 +127,13 @@ p {
   footer p {
     font-family: "Krub", sans-serif;
     font-size: 13px;
-    color: var(--footer);
     padding-top: 0.5rem;
     padding-bottom: 1rem;
   }
   .footerlist {
     margin: 0px;
     list-style-type: none;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0px 0px 10px 0px;
   }
   .footerlist li {
@@ -234,7 +232,7 @@ p {
   }
   footer p {
     font-family: "Krub", sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     color: var(--footer);
     padding-top: 0.5rem;
     padding-bottom: 1rem;
@@ -242,7 +240,7 @@ p {
   .footerlist {
     margin: 0px;
     list-style-type: none;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0px 0px 10px 0px;
   }
   .footerlist li {
@@ -256,6 +254,7 @@ p {
     color: var(--footer);
     text-decoration: none;
     font-weight: bold;
+    font-size: 30px;
   }
   a:link {
     text-decoration: none;

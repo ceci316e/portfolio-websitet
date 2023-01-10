@@ -330,6 +330,7 @@
     font-size: 23px;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    color: white;
   }
 
   /* Slideshow container */
@@ -507,8 +508,13 @@
     padding: 1rem 2rem 1rem;
   }
   .hvemerjeg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 1rem;
     padding-bottom: 2rem;
+  }
+  .billedeafmig {
+    padding-left: 2rem;
   }
   .grid_6-6-6 {
     padding: 1rem 2rem 1rem;
@@ -523,6 +529,33 @@
     text-align: center;
     padding-bottom: 2rem;
     background-color: var(--primary);
+  }
+  /***************** Min proces *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+    padding: 1rem 1rem;
+  }
+  .grid_4-4-4-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+    gap: 2rem;
+  }
+  .moodboard {
+    padding: 1rem 1rem 1rem;
+    padding-bottom: 3rem;
+  }
+  .styletile {
+    padding: 1rem 1rem 1rem;
+  }
+  .imidten {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .flex_col2 {
+    background-color: var(--primary);
+    padding: 1rem 1rem;
   }
 }
 
@@ -859,6 +892,7 @@
     font-size: 23px;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    color: white;
   }
   /* Slideshow container */
   .slideshow-container {
@@ -1118,8 +1152,14 @@
     padding: 1rem 2rem 1rem;
   }
   .hvemerjeg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-top: 1rem;
     padding-bottom: 2rem;
+  }
+  .billedeafmig {
+    max-width: 60%;
+    padding-left: 8rem;
   }
   .grid_6-6-6 {
     display: grid;
@@ -1134,6 +1174,38 @@
     text-align: center;
     padding-bottom: 2rem;
     background-color: var(--primary);
+  }
+  /***************** Min proces *****************/
+  .overskrift_portfolio {
+    text-align: center;
+    padding-top: 2rem;
+    padding: 1rem 1rem;
+  }
+  .grid_1-7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .grid_4-4-4-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem 2rem 1rem;
+    gap: 2rem;
+  }
+  .moodboard {
+    padding: 1rem 1rem 1rem;
+    padding-bottom: 3rem;
+  }
+  .styletile {
+    padding: 1rem 1rem 1rem;
+  }
+  .imidten {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .flex_col2 {
+    background-color: var(--primary);
+    padding: 1rem 1rem;
   }
 }
 
